@@ -50,7 +50,7 @@ public class ArticleFunc {
 		article.setWriter(searchedMember.getNickname());
 		
 		
-		articleDao.insertArticle(article); // articles.add(article)이 안보이네?
+		articleDao.insertArticle(article);
 		
 		System.out.println("Article has been added!");
 		

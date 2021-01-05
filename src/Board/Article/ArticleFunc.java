@@ -11,7 +11,7 @@ import Board.Member.MemberFunc;
 
 public class ArticleFunc {
 	
-	ArticleDao articleDao = new ArticleDao();
+	ArticleDao articleDao = new ArticleDao(); // 이부분이 문제일 가능성 높음
 	CommentDao commentDao = new CommentDao();
 	
 	
@@ -50,7 +50,7 @@ public class ArticleFunc {
 		article.setWriter(searchedMember.getNickname());
 		
 		
-		articleDao.insertArticle(article);
+		articleDao.insertArticle(article); // articles.add(article)이 안보이네?
 		
 		System.out.println("Article has been added!");
 		

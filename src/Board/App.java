@@ -13,7 +13,7 @@ import Board.Member.MemberFunc;
 
 public class App {
 
-	ArticleDao articleDao = new ArticleDao();
+	ArticleDao articleDao = new ArticleDao(); // 이게 
 	CommentDao commentDao = new CommentDao();
 	MemberDao memberDao = new MemberDao();
 	

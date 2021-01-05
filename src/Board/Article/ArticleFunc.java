@@ -11,7 +11,7 @@ import Board.Member.MemberFunc;
 
 public class ArticleFunc {
 	
-	ArticleDao articleDao = new ArticleDao(); // 이부분이 문제일 가능성 높음
+	ArticleDao articleDao = new ArticleDao(); // 이걸 app 으로 넘겨줘야함 (getArticleDao 를 만들어서 리턴 시키기?)
 	CommentDao commentDao = new CommentDao();
 	
 	
